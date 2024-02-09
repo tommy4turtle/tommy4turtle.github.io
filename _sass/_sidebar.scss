@@ -6,6 +6,7 @@
   text-align: center;
   margin: auto;
   width: 100%;
+  font-family: var(--text-font);
 
   a {
     color: inherit;
@@ -27,6 +28,10 @@
   margin: 0;
   font-size: 2rem;
   font-weight: 900;
+  color: black; 
+  background-color: blanchedalmond;
+  opacity: .7;
+
 
   a:hover,
   a:focus {
@@ -40,6 +45,9 @@
   font-size: 1.25rem;
   font-weight: 400;
   opacity: .7;
+  color: black; 
+  background-color: antiquewhite;
+  margin-bottom: 45%;
 }
 
 .navigation-list {

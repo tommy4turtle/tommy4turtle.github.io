@@ -1,4 +1,10 @@
 <header class="masthead">
+  <div class="masthead-title">
+    <a href="{{ "/" | relative_url }}" title="Home">{{ site.title }}</a>
+  </div>
+  <div class="masthead-tagline">
+    <small>{{ site.description }}</small>
+  </div>
   {% if site.avatar -%}
     <div class="avatar">
       {%- if site.avatar contains "://" -%}
@@ -9,12 +15,6 @@
       <img src="{{ avatar }}" class="avatar-image" alt="{{ site.author.name }}">
     </div>
   {%- endif %}
-  <div class="masthead-title">
-    <a href="{{ "/" | relative_url }}" title="Home">{{ site.title }}</a>
-  </div>
-  <div class="masthead-tagline">
-    <small>{{ site.description }}</small>
-  </div>
   {%- if site.data.navigation -%}
   <nav class="navigation">
     <ul class="navigation-list">
