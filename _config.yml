@@ -28,10 +28,10 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-logo: /avatar.jpg
+logo: /bg.jpeg
 social:
   name: Jang Hyeon Kim
-lang: kr
+lang: ko
 
 sass:
   sass_dir: _sass
