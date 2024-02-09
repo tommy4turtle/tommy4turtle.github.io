@@ -1,0 +1,53 @@
+# Setup
+title: Tommy's Blog
+description: 거북이를 좋아하며 데이터, 개발 분야에 관심이 많습니다.
+url: https://tommy4turtle.github.io
+avatar: /avatar.jpg
+paginate: 5
+permalink: pretty
+cover_image: /bg.jpeg
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - scripts/
+  - not-pure-poole.gemspec
+
+# Optimize Jekyl SEO Tag
+logo: /avatar.jpg
+social:
+  name: Jang Hyeon Kim
+google_site_verification: xxxxx
+lang: kr
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# google_analytics: UA-000000-0
+
+# Replace this value and uncomment to enable Disqus
+# disqus: xxxxxx
+
+# Specify the author for blog posts
+author:
+  name: Jang Hyeon Kim
+  url: https://tommy4turtle.github.io
+  email: ab8267@naver.ccom
