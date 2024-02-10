@@ -17,13 +17,14 @@
 
     &:hover,
     &:focus {
-      color: inherit;
+      color: var(--black);
       background-color: inherit;
-      border-bottom-color: var(--link-color);
+      border-bottom-color: var(--black);
     }
   }
 
   .current-item {
-    border-bottom-color: var(--link-color);
+    border-bottom-color: var(--black);
+    color: var(--black);
   }
 }

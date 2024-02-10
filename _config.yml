@@ -6,6 +6,7 @@ avatar: /avatar.jpg
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
+favicon: /favicon.png
 
 # Gems
 plugins:

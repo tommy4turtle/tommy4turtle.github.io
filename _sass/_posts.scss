@@ -12,6 +12,7 @@
 .post {
   font-family: var(--text-font);
   margin-bottom: 4em;
+  color: var(--black);
 
   h1, h2, h3, h4, h5, h6, .post-meta {
     font-family: var(--body-font);
@@ -46,7 +47,7 @@
   display: block;
   margin-top: -.5rem;
   margin-bottom: var(--spacer);
-  color: var(--gray-600);
+  color: var(--gray-900);
 }
 
 .comment-count {
